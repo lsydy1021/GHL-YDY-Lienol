@@ -15,3 +15,4 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+sed -i s/luci-theme-bootstrap/luci-theme-bootstrap-mod/g feeds/luci/collections/luci/Makefile
